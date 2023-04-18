@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class colliderControll : MonoBehaviour
 {
     void OnTriggerEnter(Collider collider)
-    {
-        int index = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(index);
-    }
+    if(collider.tag == "Car")
+        {
+            int index = SceneManager.GetActiveScene().buildIndex + 1;
+            SceneManager.LoadScene(index);
+        }
 }
