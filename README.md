@@ -4,6 +4,7 @@
 * Use up and down arrows to avoid incoming cars
 * There are three difficulty levels to choose from
 
+[![](https://github.com/Game-Dev-Baram-Chahine/Tetris-Racing-2.5D-Dor/blob/main/images/ingame.png)](https://gamedevbc.itch.io/dors-tetris-racing)
 
 Scripts:
 
